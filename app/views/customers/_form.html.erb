@@ -1,0 +1,17 @@
+<%= simple_form_for(@customer) do |f| %>
+  
+
+  <%= f.input :name %><br/  >
+  <%= f.association :country  %><br/>
+  <%#= f.association :state , :include_blank => false %>
+
+  <div class="field">
+  <%= f.label :state %>
+  <%= f.grouped_collection_select  :state_id , Country.all , :states, :name , :id ,:name %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>
