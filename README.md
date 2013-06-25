@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 SM RailsCast 88
 ===============
 
@@ -50,8 +50,3 @@ Run `rails` server
 ```
 rails s
 ```
-
-=======
-sm-rc88
-=======
->>>>>>> fd9cf6f1a7087a77f5e9b1ba59f392e44b0e250f
